@@ -1,12 +1,16 @@
 {
   "name": "assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "My heroku API upload",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "css": "^3.0.0"
+  }
 }
